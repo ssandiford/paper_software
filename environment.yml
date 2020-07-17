@@ -1,4 +1,4 @@
-name: cloud_tutorial
+name: figsenv
 channels:
   - conda-forge
   - defaults
@@ -13,6 +13,8 @@ dependencies:
   - matplotlib=3.1.3
   - cartopy=0.17.0
   - scipy=1.3.1
-prefix: C:\Users\gentemann\Miniconda3\envs\cloud_tutorial
+  - seawater=3.3.4
+  - scikit-learn=0.22.2.post1
+prefix: C:\Users\gentemann\Miniconda3\envs\figsenv
 
 
