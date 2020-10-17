@@ -16,6 +16,7 @@ dependencies:
   - scipy=1.3.1
   - seawater=3.3.4
   - scikit-learn=0.22.2.post1
+  - spectrum
 prefix: C:\Users\gentemann\Miniconda3\envs\figsenv
 
 
