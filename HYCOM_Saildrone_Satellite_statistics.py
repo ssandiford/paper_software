@@ -12,10 +12,10 @@ import sys
 import csv
 
 #data directory for saildrone and satellite orbital data
-data_sat = 'C:/Users/intern-1/Documents/GitHub/paper_software/2020_ATOMIC_Salinity/data/sss_collocations_orbital/'
+data_sat = './../paper_software/2020_ATOMIC_Salinity/data/sss_collocations_orbital/'
 
 #data directory for HYCOM data
-data_dir1 = 'C:/Users/intern-1/Documents/hycom_files/'
+data_dir1 = './../paper_software/2020_ATOMIC_Salinity/data/'
 files = glob(data_dir1+'*nc4')
 hycom=xr.open_mfdataset(data_dir1+'*nc4',concat_dim='time').isel(depth=0)
 
