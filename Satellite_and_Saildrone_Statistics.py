@@ -5,13 +5,13 @@ import xskillscore as xs
 from glob import glob
 
 #data directory for 8 day nearest satellite data
-data_dir = 'C:/Users/intern-1/Documents/GitHub/paper_software/2020_ATOMIC_Salinity/data/sss_collocations_8day_nearest/'
+data_dir = './../paper_software/2020_ATOMIC_Salinity/data/sss_collocations_8day_nearest/'
 
 #data directory for saildrone and satellite orbital data
-data_sat = 'C:/Users/intern-1/Documents/GitHub/paper_software/2020_ATOMIC_Salinity/data/sss_collocations_orbital/'
+data_sat = './../paper_software/2020_ATOMIC_Salinity/data/sss_collocations_orbital/'
 
 ##data directory for raw saildrone data
-data_sail = 'C:/Users/intern-1/Documents/GitHub/paper_software/2020_ATOMIC_Salinity/data/'
+data_sail = './../paper_software/2020_ATOMIC_Salinity/data/'
 
 #create xarray dataset with saildrone filenames
 saildrone_filenames = glob(data_sail+'saildrone*.nc')
